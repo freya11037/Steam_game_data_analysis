@@ -145,22 +145,10 @@ Each notebook is self-contained with documented analytical decisions in the open
 Steam_game_data_analysis/
 ├── README.md
 ├── FinalReport.pdf
-├── Stage1_DataPipeline.ipynb
-├── Stage2_SurgeDetection.ipynb
-├── Stage3_PanelRegression.ipynb
+├── notebooks/
+│   ├── Stage1_DataPipeline.ipynb
+│   ├── Stage2_SurgeDetection.ipynb
+│   └── Stage3_PanelRegression.ipynb
 └── .gitignore
 ```
 
----
-
-## .gitignore
-
-Add a `.gitignore` to avoid pushing large data files:
-
-```
-*.csv
-*.pkl
-*.parquet
-__pycache__/
-.ipynb_checkpoints/
-```
